@@ -32,6 +32,9 @@ Use this link in the "*Additional Boards Managers URLs*" field:
 
 https://raw.githubusercontent.com/Ragot-Pierre/Arduino_Core_STM8/main/Package_STM8.json
 
+## "Standalone" chip core
+  * [STM8L151F2](https://www.st.com/en/microcontrollers-microprocessors/stm8l151f2.html)
+
 ## Boards available
   * STM8L
     * [Nucleo STM8L152R8](https://www.st.com/en/evaluation-tools/nucleo-8l152r8.html)

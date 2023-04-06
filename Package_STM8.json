@@ -10,13 +10,14 @@
         {
           "name": "STM8 MCU based boards",
           "architecture": "stm8",
-          "version": "1.0.3",
+          "version": "1.0.1",
           "category": "Contributed",
           "url": "https://github.com/Ragot-Pierre/Arduino_Core_STM8/releases/download/Release/STM8-v1.0.0.zip",
           "archiveFileName": "STM8-v1.0.0.zip",
-          "checksum": "SHA-256:53ff866d9b3c34e25f5160daab0c48ef74fdab3f399a67d9aed1f86af512ea0e",
-          "size": "39812052",
+          "checksum": "SHA-256:37b628a5ead109fea8702f75598f81b7a5ce060d3013d279bf540074c2a54d20",
+          "size": "39825744",
           "boards": [
+            {"name": "STM8L151F2"},
             {"name": "Nucleo_8S208RB"},
             {"name": "Nucleo_8L152R8"}
           ],
