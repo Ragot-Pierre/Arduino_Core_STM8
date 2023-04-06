@@ -5,9 +5,7 @@
       "websiteURL": "https://github.com/Ragot-Pierre/Arduino_Core_STM8",
       "maintainer": "Pierre RAGOT",
       "email": "pierre-ragot@hotmail.fr",
-      "help": {
-        "online": "http://www.stm32duino.com/"
-      },
+      "help": {},
       "platforms": [
         {
           "name": "STM8 MCU based boards",
@@ -43,10 +41,10 @@
           "systems": [
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/Ragot-Pierre/Arduino_Core_STM8/blob/main/tools/Cxppstm8.zip",
+              "url": "https://github.com/Ragot-Pierre/Arduino_Core_STM8/raw/main/tools/Cxppstm8.zip",
               "archiveFileName": "Cxppstm8.zip",
               "checksum": "SHA-256:1277e2ba80e744845ee55bb9088b206e324d401439ddd2956c13a4f418832dfe",
-              "size": "138276"
+              "size": "32363283"
             }
           ]
         },
