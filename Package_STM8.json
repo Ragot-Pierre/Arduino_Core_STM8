@@ -10,7 +10,7 @@
         {
           "name": "STM8 MCU based boards",
           "architecture": "stm8",
-          "version": "1.0.1",
+          "version": "1.0.2",
           "category": "Contributed",
           "url": "https://github.com/Ragot-Pierre/Arduino_Core_STM8/releases/download/Release/STM8-v1.0.0.zip",
           "archiveFileName": "STM8-v1.0.0.zip",
@@ -55,7 +55,7 @@
           [
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/Ragot-Pierre/Arduino_Core_STM8/blob/main/tools/STM8Tools-1.0.0-windows.tar.bz2",
+              "url": "https://github.com/Ragot-Pierre/Arduino_Core_STM8/releases/download/Release/STM8Tools-1.0.0-windows.tar.bz2",
               "archiveFileName": "STM8Tools-1.0.0-windows.tar.bz2",
               "checksum": "SHA-256:e8e8c8c23b41ae02e3363a54acfd0c716813b8ef64db490af1555993c81dcd0a",
               "size": "6864757"
