@@ -12,9 +12,9 @@
         {
           "name": "STM8 MCU based boards",
           "architecture": "stm8",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "category": "Contributed",
-          "url": "https://github.com/stm32duino/Arduino_Core_STM8/releases/download/1.0.0/STM8-1.0.0.tar.bz2",
+          "url": "https://github.com/Ragot-Pierre/Arduino_Core_STM8/releases/download/Release/STM8-v1.0.0.zip",
           "archiveFileName": "STM8-1.0.0.tar.bz2",
           "checksum": "SHA-256:f38055bfd8199feea66f02a3a25405d07aa3635f57b2adf15e93112b2d556584",
           "size": "374456",
@@ -24,12 +24,12 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "STMicroelectronics",
+              "packager": "STM8",
               "name": "cxppstm8",
               "version": "4.1.3"
             },
             {
-              "packager": "STMicroelectronics",
+              "packager": "STM8",
               "name": "STM8Tools",
               "version": "1.0.0"
             }
