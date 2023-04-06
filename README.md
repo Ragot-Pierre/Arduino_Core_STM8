@@ -1,17 +1,16 @@
 # Important note
 
-**This repository has been archived as no further evolutions are planned.**
+**This repository is a fork from [STM32Duino](https://github.com/stm32duino/Arduino_Core_STM8) archive.**
 
-**As an alternative, consider using [STM32C0xx series](https://www.st.com/en/microcontrollers-microprocessors/stm32c0-series.html) supported by the [Arduino_Core_STM32](https://github.com/stm32duino/Arduino_Core_STM32).**
+**I'm working on the implementation of the STM8L151F2 because I got a bunch of those chips.**
 
 # Arduino core support for STM8 based boards
-[![GitHub release](https://img.shields.io/github/release/stm32duino/Arduino_Core_STM8.svg)](https://github.com/stm32duino/Arduino_Core_STM8/releases/latest)
 
-* [Introduction](https://github.com/stm32duino/Arduino_Core_STM8#Introduction)<br>
-* [Getting Started](https://github.com/stm32duino/Arduino_Core_STM8#getting-started)<br>
-* [Boards available](https://github.com/stm32duino/Arduino_Core_STM8#boards-available)<br>
-* [Troubleshooting](https://github.com/stm32duino/Arduino_Core_STM8#troubleshooting)<br>
-* [Wiki](https://github.com/stm32duino/wiki/wiki/)
+* [Introduction](https://github.com/Ragot-Pierre/Arduino_Core_STM8#Introduction)<br>
+* [Getting Started](https://github.com/Ragot-Pierre/Arduino_Core_STM8#getting-started)<br>
+* [Boards available](https://github.com/Ragot-Pierre/Arduino_Core_STM8#boards-available)<br>
+* [Troubleshooting](https://github.com/Ragot-Pierre/Arduino_Core_STM8#troubleshooting)<br>
+* Wiki : TODO
 
 ## Introduction
 
@@ -31,15 +30,7 @@ This repo is available as a package usable with [Arduino Boards Manager](https:/
 
 Use this link in the "*Additional Boards Managers URLs*" field:
 
-https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectronics_index.json
-
-**Warning**:
-* Default branch has changed to main.
-* Since core release 1.0.0 this link has changed.
-
-For full instructions on using the "**Boards Manager**", see the [Getting Started](https://github.com/stm32duino/wiki/wiki/Getting-Started) page.
-
-For advanced user, you can use the repository: see the [Using git repository](https://github.com/stm32duino/wiki/wiki/Using-git-repository) page.
+https://raw.githubusercontent.com/Ragot-Pierre/Arduino_Core_STM8/main/Package_STM8.json
 
 ## Boards available
   * STM8L
