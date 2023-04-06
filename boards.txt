@@ -3,6 +3,37 @@
 menu.xserial=Serial interface
 menu.upload_method=Upload Method
 
+################################################################################
+# STM8L151F2 Chip
+
+STM8L151F2.name=STM8L151F2
+
+STM8L151F2.build.core=arduino
+STM8L151F2.build.board=STM8L151F2
+STM8L151F2.build.extra_flags=-d{build.product_line} {build.xSerial}
+
+# STM8L151F2 board
+# Support: Serial1 (USART1 on PA4, PA5) and Serial2 (USART2 on PD6, PD5)
+STM8L151F2=STM8L151F2
+STM8L151F2.device=STM8L151F2
+STM8L151F2.node=STM8L15xF2
+STM8L151F2.upload.maximum_size=131072
+STM8L151F2.upload.maximum_data_size=6144
+STM8L151F2.build.mcu=8-bit
+STM8L151F2.build.board=STM8L151F2
+STM8L151F2.build.series=STM8Lxx
+STM8L151F2.build.splibraryPrefix=_StdPeriph_Driver
+STM8L151F2.build.product_line=STM8L15X_LD
+STM8L151F2.build.variant=STM8L151F2
+STM8L151F2.build.f_cpu=16000000
+
+STM8L151F2.menu.upload_method.MassStorage=Mass Storage
+STM8L151F2.menu.upload_method.MassStorage.upload.protocol=
+STM8L151F2.menu.upload_method.MassStorage.upload.tool=massStorageCopy
+
+STM8L151F2.menu.upload_method.stm8Flasher=stm8Flasher
+STM8L151F2.menu.upload_method.stm8Flasher.upload.protocol=stm8Tools
+STM8L151F2.menu.upload_method.stm8Flasher.upload.tool=stm8Flasher
 
 ################################################################################
 # Nucleo 8S Board
@@ -35,6 +66,7 @@ Nucleo_8S208RB.menu.upload_method.MassStorage.upload.tool=massStorageCopy
 Nucleo_8S208RB.menu.upload_method.stm8Flasher=stm8Flasher
 Nucleo_8S208RB.menu.upload_method.stm8Flasher.upload.protocol=stm8Tools
 Nucleo_8S208RB.menu.upload_method.stm8Flasher.upload.tool=stm8Flasher
+
 ################################################################################
 # Nucleo 8L Board
 
